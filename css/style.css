@@ -1,0 +1,359 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Arial', sans-serif;
+}
+
+header {
+    height: 100vh;
+    width: 100%;
+}
+
+nav {
+    height: 11vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 40px;
+}
+
+.logo img {
+    width: 60px;
+}
+
+.nav-links a{
+    margin: 0 20px;
+    text-decoration: none;
+    color: black;
+}
+
+.nav-links a:hover {
+    color: gray;
+    transition: .3s;
+}
+
+main {
+    height: 89vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url(/assets/Back.jpg);
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+
+.text {
+    text-align: center;
+}
+
+.text h1{
+    font-size: 48px;
+    text-transform: uppercase;
+}
+
+.text p{
+    font-size: 18px;
+    margin-top: 10px;
+}
+
+section {
+    height: 100vh;
+    width: 100%;
+    padding: 40px;
+    flex-direction: column;
+    display: flex;
+    justify-content: space-between;
+}
+
+.about {
+    background-color: black;
+}
+
+.top h2 {
+    text-transform: uppercase;
+    color: white;
+}
+
+.bottom h5 {
+    width: 85%;
+    font-size: 30px;
+    color: white;
+}
+
+.btn {
+    margin-top: 15px;
+    background-color: white;
+    border: none;
+    border-radius: 50px;
+    padding: 15px 20px;
+    font-size: 16px;
+    font-weight: bolder;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background-color: black;
+    color: white;
+    transition: .5s;
+}
+
+.techs {
+    background-image: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url(/assets/Tech.jpg);
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    color: white;
+}
+
+.tech h1{
+    font-size: 48px;
+    margin-bottom: 15px;
+}
+
+.tech p {
+    font-size: 27px;
+    margin-bottom: 15px;
+}
+
+.tech button {
+    font-size: 16px;
+    font-weight: bold;
+    border: none;
+    border-radius: 50px;
+    background-color: white;
+    padding: 15px 20px;
+    cursor: pointer;
+}
+
+.tech button:hover {
+    background-color: black;
+    color: white;
+    transition: .3s;
+}
+
+.blogs {
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+
+.blog {
+    text-align: center;
+}
+
+.title {
+    margin-bottom: 70px;
+}
+
+.title h1 {
+    font-size: 48px;
+}
+
+.cards {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 40px;
+}
+
+.card {
+    height: 300px;
+    width: 400px;
+    background-color: grey;
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 100px;
+}
+
+.card h3 {
+    font-size: 16px;
+    text-transform: uppercase;
+}
+
+.card h6 {
+    font-size: 14px;
+    font-weight: lighter;
+}
+
+#card1 {
+    background-image: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url(/assets/1c.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+#card2 {
+    background-image: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url(/assets/2c.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+#card3 {
+    background-image: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url(/assets/3c.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+.contacts {
+    background: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url(/assets/Space.jpg);
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: right;
+    text-align: right;
+    color: white;
+}
+
+.contact {
+    margin-top: 300px;
+}
+
+.contact h1 {
+    font-size: 48px;
+    margin-bottom: 15px;
+}
+
+.contact p {
+    font-size: 27px;
+    margin-bottom: 15px;
+}
+
+.contact button {
+    font-size: 16px;
+    font-weight: bold;
+    border: none;
+    border-radius: 50px;
+    background-color: white;
+    padding: 15px 20px;
+    cursor: pointer;
+}
+
+.contact button:hover {
+    background-color: black;
+    color: white;
+    transition: .3s;
+}
+
+footer {
+    height: 20vh;
+    width: 100%;
+    background-color: black;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.items {
+    display: flex;
+}
+
+.copyright {
+    color: gainsboro;
+}
+
+.items h3 {
+    margin: 20px;
+    font-size: 16px;
+}
+
+.items a {
+    font-weight: normal;
+    text-decoration: none;
+    color: white;
+}
+
+.hamburger {
+    display: none;
+    flex-direction: column;
+    cursor: pointer;
+}
+
+.hamburger span {
+    width: 25px;
+    height: 3px;
+    background: black;
+    margin: 4px 0;
+    transition: 0.4s;
+}
+
+/* Responsive CSS */
+@media (max-width: 767px) {
+
+    .nav-links {
+        position: absolute;
+        right: 0;
+        height: 100vh;
+        display: block;
+        top: 11vh;
+        background: white;
+        align-items: center;
+        width: 100%;
+        transform: translateX(100%);
+        transition: transform 0.5s ease-in-out;
+    }
+
+    .nav-links a {
+        font-size: 27px;
+        margin: 20px 0;
+    }
+
+    .nav-links.active {
+        transform: translateX(0);
+    }
+
+    .hamburger {
+        display: flex;
+    }
+
+    .hamburger.toggle span:nth-child(1) {
+        transform: rotate(-45deg) translate(-5px, 6px);
+    }
+
+    .hamburger.toggle span:nth-child(2) {
+        opacity: 0;
+    }
+
+    .hamburger.toggle span:nth-child(3) {
+        transform: rotate(45deg) translate(-5px, -6px);
+    }
+
+    .logo img {
+        width: 50px;
+    }
+
+    .text h1 {
+        padding: 0 20px;
+        font-size: 36px;
+    }
+
+    .bottom h5 {
+        font-size: 24px;
+    }
+
+    .tech h1 {
+        font-size: 30px;
+    }
+
+    .tech p {
+        font-size: 18px;
+    }
+
+    .cards {
+        flex-direction: column;
+        padding: 0 20px;
+    }
+
+    .title h1 {
+        font-size: 30px;
+    }
+}
