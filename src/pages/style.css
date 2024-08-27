@@ -107,6 +107,12 @@ button {
     border-radius: 50px;
 }
 
+button:hover {
+    background-color: white;
+    color: black;
+    transition: .5s;
+}
+
 .blog {
     background-color: black;
     color: white;

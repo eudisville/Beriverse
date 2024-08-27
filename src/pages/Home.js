@@ -1,17 +1,25 @@
-import React from 'react'
+import React, { useEffect } from 'react'
+import { Link } from 'react-router-dom'
 import Header from '../components/Home/Header'
 import About from '../components/Home/About'
-import Card from '../components/Card'
-import BlogCard from '../components/BlogCard'
+import Card from '../components/Cards/Card'
+import BlogCard from '../components/Cards/BlogCard'
+import AOS from 'aos'
+import 'aos/dist/aos.css';
 import './style.css'
 
 function Home() {
+
+  useEffect(() => {
+    AOS.init({ duration: 1000 })
+  }, [])
+
   return (
     <div>
         <Header />
         <About />
         <section>
-          <div className="section-items">
+          <div className="section-items" data-aos= "fade-up">
             <div className="section-text">
               <div className="left">
                 <h5>Beriverse Incorporation</h5>
@@ -47,7 +55,7 @@ function Home() {
           <div className="join">
             <h1>Join Us Now</h1>
             <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nam optio vel recusandae ullam consequatur, minus, similique voluptates adipisci sequi odit, laudantium nostrum ratione temporibus placeat dignissimos ab accusamus veniam. Maxime.</p>
-            <button>Apply Now</button>
+            <Link to=""><button>Apply Now</button></Link>
           </div>
         </section>
 
