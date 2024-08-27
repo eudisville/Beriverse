@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+.software {
+    height: 90vh;
+    width: 100%;
+    padding: 40px;
+    display: flex;
+    align-items: center;
+    background: linear-gradient(rgba(0,0,0,2), rgba(0,0,0,0.4)), url(/src/assets/images/science.jpg);
+    background-position: center;
+    background-size: cover;
+    color: white;
+}
+
+.text {
+    width: 50%;
+}
+
+.text h1{
+    font-size: 48px;
+    margin-bottom: 20px;
+}
+
+.text p {
+    font-size: 27px;
+    margin-bottom: 25px;
+}
+
+.text button {
+    font-size: 24px;
+    background-color: rgb(0, 93, 193);
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+}
+
+.text button:hover {
+    color: white;
+    background-color: black;
+    transition: .5s;
+}

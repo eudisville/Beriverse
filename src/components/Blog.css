@@ -1,0 +1,34 @@
+.blog-card {
+    padding: 20px;
+    margin: 50px 10px 10px 10px;
+    height: 300px;
+    width: 450px;
+    color: white;
+    flex-direction: column;
+    display: flex;
+    justify-content: space-between;
+    text-align: left;
+    cursor: pointer;
+}
+
+.blog-item h4{
+    font-size: 27px;
+}
+  
+.back1 {
+    background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.5)), url('/src/assets/images/art.jpg');
+    background-size: cover;
+    background-position: center;
+}
+  
+.back2 {
+    background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.5)), url('/src/assets/images/data.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+.back3 {
+    background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.5)), url('/src/assets/images/agro.jpg');
+    background-size: cover;
+    background-position: center;
+}

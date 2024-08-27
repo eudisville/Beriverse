@@ -1,0 +1,51 @@
+.team-card {
+    padding: 20px;
+    margin: 10px;
+    border-radius: 15px;
+    height: 300px;
+    width: 250px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    gap: 30px;
+    color: white;
+    flex-direction: column;
+    display: flex;
+    justify-content: space-between;
+}
+  
+.background1 {
+    background-image: linear-gradient(rgba(0,0,0,2), rgba(0,0,0,2)), url('/src/assets/images/eudes.jpg');
+    background-size: cover;
+    background-position: center;
+}
+  
+.background2 {
+    background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,2)), url('/src/assets/images/ai.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+.top h5{
+    text-transform: uppercase;
+    font-weight: 400;
+    font-size: 12px;
+    width: 65%;
+    padding: 5px 5px;
+    background-color: rgba(0, 0, 0, 0.247);
+    border-radius: 50px;
+    border: 1px solid white;
+}
+
+.bottom h3{
+    font-weight: 400;
+    margin-bottom: 5px;
+}
+
+.bottom h5 {
+    text-transform: uppercase;
+    font-weight: 300;
+    font-size: 11px;
+}
+
+.bottom span{
+    font-weight: bold;
+}

@@ -1,0 +1,129 @@
+section {
+    height: 100vh;
+    width: 100%;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.section-items {
+    padding-top: 70px;
+    color: white;
+}
+
+.section-text {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 40px;
+}
+
+.right{
+    width: 40%;
+    font-size: 18px;
+}
+
+.left {
+    width: 50%;
+}
+
+.left h5 {
+    font-size: 16px;
+    text-transform: uppercase;
+    font-weight: 300;
+    color: white;
+    letter-spacing: 10px;
+    margin-bottom: 10px;
+}
+
+.left h1 {
+    font-size: 48px;
+}
+
+.cards {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.teams {
+    color: white;
+}
+
+.team-text {
+    text-align: center;
+}
+
+.team-text h5 {
+    font-size: 16px;
+    color: white;
+    font-weight: 300;
+    letter-spacing: 10px;
+}
+
+.team-text h1{
+    font-size: 54px;
+}
+
+.team-items {
+    width: 100%;
+    margin-top: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.join-us {
+    background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,2)), url(/src/assets/images/Join.jpg);
+    background-size: cover;
+    background-position: center;
+    padding: 0 40px;
+}
+
+.join {
+    color: white;
+}
+
+.join h1 {
+    font-size: 48px;
+}
+
+.join p {
+    width: 60%;
+    font-size: 27px;
+    margin-top: 20px;
+}
+
+button {
+    margin-top: 20px;
+    color: white;
+    font-size: 24px;
+    padding: 10px 20px;
+    background-color: rgb(0, 78, 126);
+    border: none;
+    border-radius: 50px;
+}
+
+.blog {
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+
+.blog-item {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.blog-items h1{
+    font-size: 48px;
+}
+
+.blog-items p {
+    padding: 20px 40px;
+    font-size: 24px;
+}

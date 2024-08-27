@@ -1,0 +1,55 @@
+.software-section {
+    background-color: black;
+    color: white;
+    padding: 0 40px;
+}
+
+.left h5 {
+    color: white;
+}
+
+.left p {
+    font-size: 24px;
+    margin-top: 15px;
+}
+
+.ia-section {
+    background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,1)), url('/src/assets/images/mo.jpg');
+    background-size: cover;
+    background-position: center;
+    color: white;
+    text-align: right;
+}
+
+.ia-items {
+    display: flex;
+    align-items: center;
+    justify-content: right;
+    padding: 0 40px;
+    width: 100%;
+}
+
+.ia-items .right h5 {
+    font-size: 16px;
+    margin-bottom: 5px;
+    letter-spacing: 10px;
+    font-weight: 300;
+}
+
+.ia-items .right h1 {
+    font-size: 48px;
+    margin-bottom: 20px;
+}
+
+.ia-items .right p {
+    font-size: 23px;
+}
+
+main {
+    background-color: black;
+    gap: 25px;
+    display: flex;
+    height: 100vh;
+    flex-wrap: wrap;
+    padding: 0 35px;
+}
