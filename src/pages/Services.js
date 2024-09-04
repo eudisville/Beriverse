@@ -1,13 +1,20 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import Header from '../components/Products/Header'
+import AOS from "aos"
+import 'aos/dist/aos.css';
 import './pc.css'
 
 function Services() {
+
+  useEffect(() => {
+    AOS.init({ duration: 2000 })
+  })
+
   return (
     <div>
       <Header/>
       <section className='software-section'>
-        <div className="software-items">
+        <div className="software-items" data-aos="fade-up">
           <div className="left">
             <h5>BERIVERSE SOFTWARE</h5>
             <h1>Software</h1>
@@ -18,7 +25,8 @@ function Services() {
       </section>
       <section className='ia-section'>
         <div className="ia-items">
-          <div className="right">
+          <div className="right" data-aos="fade-left"
+          >
             <h5>BERIVERSE AI</h5>
             <h1>Artficial Intelligence</h1>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
@@ -26,7 +34,7 @@ function Services() {
         </div>
       </section>
       <section className='software-section'>
-        <div className="software-items">
+        <div className="software-items" data-aos="fade-up" duration="1000">
           <div className="left">
             <h5>OUR CONTACT</h5>
             <h1>Contact Us </h1>

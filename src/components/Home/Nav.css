@@ -47,6 +47,7 @@ a:hover {
 @media (max-width: 768px) {
     .navbar {
         width: 100%;
+        padding: 20px;
     }
     
     .nav-links ul {
@@ -55,9 +56,9 @@ a:hover {
       top: 60px;
       left: 0;
       width: 100%;
-      background-color: #333;
+      background-color: #fbfbfb;
       display: none;
-      z-index: 1000;
+      z-index: 1;
     }
   
     .nav-links ul.active {
@@ -67,9 +68,5 @@ a:hover {
     .nav-links li {
       margin: 10px 0;
       text-align: center;
-    }
-  
-    .menu-icon {
-      display: block;
     }
   }

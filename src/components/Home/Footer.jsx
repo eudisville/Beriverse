@@ -9,7 +9,7 @@ function Footer() {
         <h4>Beriverse &copy;2024</h4>
       </div>
       <div className="footer-right">
-        <Link to="https://mail.google.com/mail/u/0/#inbox" target='_blank'><h5>Mail</h5></Link>
+        <Link to="mailto:beriverse@gmail.com" target='_blank'><h5>Mail</h5></Link>
         <Link><h5>Instagram</h5></Link>
         <Link><h5>Twitter</h5></Link>
         <Link><h5>LinkedIn</h5></Link>

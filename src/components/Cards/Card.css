@@ -1,0 +1,17 @@
+.card-back {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 400px;
+    width: 1350px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 50px;
+}
+
+@media screen and (max-width: 768px) {
+    .card-back {
+        height: 350px;
+        width: 300px;
+    }
+}

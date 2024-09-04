@@ -32,3 +32,18 @@
     background-size: cover;
     background-position: center;
 }
+
+@media screen and (max-width: 768px) {
+    .blog-item {
+        flex-direction: column;
+    }
+
+    .blog-card {
+        width: 320px;
+        height: 320px;
+    }
+
+    .back1 h4, .back2 h4, .back3 h4 {
+        font-size: 24px;
+    }
+}

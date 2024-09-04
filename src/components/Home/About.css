@@ -21,3 +21,18 @@
     font-size: 27px;
     width: 60%;
 }
+
+@media screen and (max-width: 768px) {
+    .about-main {
+        width: 100%;
+    }
+
+    .about-text h1 {
+        font-size: 48px;
+    }
+
+    .about-text p {
+        font-size: 24px ;
+        width: 100%;
+    }
+}

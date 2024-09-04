@@ -18,7 +18,7 @@ function Home() {
     <div>
         <Header />
         <About />
-        <section>
+        <section className='middle'>
           <div className="section-items" data-aos= "fade-up">
             <div className="section-text">
               <div className="left">
@@ -34,10 +34,7 @@ function Home() {
             </div>
 
             <div className="cards">
-              <Card backgroundColor='white'>
-                <div className="item-left"></div>
-                <div className="item-right"></div>
-              </Card>
+              <Card />
             </div>
           </div>
         </section>
@@ -52,7 +49,7 @@ function Home() {
         </section>
 
         <section className='join-us'>
-          <div className="join">
+          <div className="join" data-aos="fade-up">
             <h1>Join Us Now</h1>
             <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nam optio vel recusandae ullam consequatur, minus, similique voluptates adipisci sequi odit, laudantium nostrum ratione temporibus placeat dignissimos ab accusamus veniam. Maxime.</p>
             <Link to=""><button>Apply Now</button></Link>

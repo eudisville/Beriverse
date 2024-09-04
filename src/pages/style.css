@@ -133,3 +133,68 @@ button:hover {
     padding: 20px 40px;
     font-size: 24px;
 }
+
+@media screen and (max-width: 768px) {
+    .section-text {
+        flex-direction: column;
+        display: flex;
+        align-items: center;
+        text-align: center;
+    }
+
+    .left {
+        width: 100%;
+    }
+
+    .left h1{
+        font-size: 30px;
+    }
+
+    .left h5 {
+        font-size: 10px;
+        margin-bottom: 20px;
+    }
+
+    .right {
+        margin-top: 20px;
+        width: 100%;
+    }
+
+    .middle {
+        width: 100%;
+    }
+
+    .team-text h5 {
+        font-size: 12px;
+    }
+
+    .team-text h1 {
+        font-size: 36px;
+    }
+
+    .join h1 {
+        font-size: 48px;
+    }
+
+    .join p {
+        font-size: 24px;
+        width: 100%;
+    }
+
+    .blog {
+        height: auto;
+        padding: 40px 20px;
+        flex-direction: column;
+        display: flex;
+        align-items: center;
+        text-align: center;
+    }
+
+    .blog-items h1 {
+        font-size: 30px;
+    }
+
+    .blog-items p {
+        font-size: 24px;
+    }
+}
