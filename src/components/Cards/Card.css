@@ -1,17 +1,35 @@
 .card-back {
+    position: relative;
     display: flex;
     justify-content: center;
     align-items: center;
     text-align: center;
     height: 400px;
     width: 1350px;
-    background-color: rgb(255, 255, 255);
     border-radius: 50px;
+    overflow: hidden; /* Assure que la vidéo ne déborde pas de la carte */
+}
+
+.video-background {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Permet à la vidéo de couvrir tout le conteneur */
+    z-index: 0;
+}
+
+.content {
+    position: relative;
+    z-index: 1;
+    color: white;
+    padding: 20px;
 }
 
 @media screen and (max-width: 768px) {
     .card-back {
         height: 350px;
-        width: 300px;
+        width: 500px;
     }
 }
