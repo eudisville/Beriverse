@@ -11,11 +11,15 @@
     height: 10vh;
     width: 100%;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-between; 
     align-items: center;
     padding: 0 40px;
     background: black;
     color: white;
+}
+
+.nav-links {
+  margin-left: auto;
 }
 
 .logo img {
@@ -62,15 +66,16 @@ a:hover {
 @media (max-width: 768px) {
   .menu-icon {
       display: flex;
-      margin-left: 280px;
+      margin-right: 20px;
   }
 
   .navbar {
     padding: 0;
+    display: flex;
     justify-content: space-between;
   }
 
-  .nav-links ul {
+  .nav-links {
       flex-direction: column;
       position: absolute;
       top: 70px;
