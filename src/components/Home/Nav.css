@@ -62,7 +62,7 @@ a:hover {
 @media (max-width: 768px) {
   .menu-icon {
       display: flex;
-      margin-left: 300px;
+      margin-left: 280px;
   }
 
   .navbar {
