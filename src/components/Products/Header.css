@@ -41,3 +41,13 @@
     background-color: black;
     transition: .5s;
 }
+
+@media screen and (max-width: 768px) {
+    .software {
+        padding: 20px;
+    }
+
+    .text {
+        width: 100%;
+    }
+}
