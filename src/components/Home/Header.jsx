@@ -15,7 +15,7 @@ function Header() {
             <div className="header">
                 <div className="header-main" data-aos="fade-up">
                   <h1><span>Inspire</span> and <span>Transform</span> the World.</h1>
-                  <p>We are Beriverse : The StartUp of future</p>
+                  <p>Nous sommes Beriverse : Nous vous aidons à accélerer votre croissance digitale. </p>
                 </div>
             </div>
         </header>

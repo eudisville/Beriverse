@@ -16,9 +16,11 @@ function Services() {
       <section className='software-section'>
         <div className="software-items" data-aos="fade-up">
           <div className="left">
-            <h5>BERIVERSE SOFTWARE</h5>
-            <h1>Software</h1>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam at maiores dignissimos qui facilis pariatur, fugit natus amet sapiente animi a dolorum iusto deserunt harum saepe repellat cupiditate repudiandae suscipit.</p>
+            <h5>BERIVERSE TECHNOLOGIE</h5>
+            <h1>Logiciel & Application</h1>
+            <p>Nous fournissons des solutions logicielles personnalisées qui répondent
+              aux besoins uniques de votre entreprises 
+            </p>
           </div>
           <div className="right"></div>
         </div>

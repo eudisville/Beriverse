@@ -13,11 +13,12 @@ function About() {
     <div className='about'>
         <div className="about-main">
             <div className="about-text" data-aos= "fade-right">
-                <h1>About Us</h1>
-                <p>Beriverse Incorporation is a technological company which grow
-                  in Software Development, Artificial Intelligence and IoT. 
-                  Our mission is Inspire and Transform the World. This mission means
-                  we are open to resolve our current problems.
+                <h1>A Propos de Nous</h1>
+                <p>Bienvenue chez Beriverse, votre partenaire technologique
+                  de confiance basé en Côte d'Ivoire. Nous sommes une start-up
+                  innovante spécialisé en développement de logiciel, Animation 3D
+                  et Design.
+                  Notre Mission, Inspirer et Transformer le Monde.
                 </p>
             </div>
         </div>

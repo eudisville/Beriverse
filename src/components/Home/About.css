@@ -19,7 +19,7 @@
 
 .about-text p {
     font-size: 27px;
-    width: 60%;
+    width: 50%;
 }
 
 @media screen and (max-width: 768px) {

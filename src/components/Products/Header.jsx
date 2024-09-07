@@ -5,8 +5,11 @@ function Header() {
     <div className='software'>
         <div className="about-software">
             <div className="text">
-                <h1>Discover Our Services</h1>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam sed provident nam eaque, repellendus fugit ad exercitationem maiores, dolores eum quidem vero in nostrum sit alias ut unde voluptate ducimus?</p>
+                <h1>Découvrez Nos Services</h1>
+                <p>
+                  Chez BERIVERSE, nous offrons une gamme complète de services
+                  technologiques conçus pour répondre aux besoins de votre entreprise.
+                </p>
             </div>
         </div>
   </div>

@@ -42,36 +42,41 @@ function Home() {
         <section className="teams">
           <div className="team">
             <div className="team-text">
-              <h5>WHAT WE DO</h5>
-              <h1>Let Us Embark With Us</h1>
+              <h5>CE QUE NOUS FAISONS</h5>
+              <h1>Laissez Nous vous Embarquer</h1>
             </div>
           </div>
         </section>
 
         <section className='join-us'>
           <div className="join" data-aos="fade-up">
-            <h1>Join Us Now</h1>
-            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nam optio vel recusandae ullam consequatur, minus, similique voluptates adipisci sequi odit, laudantium nostrum ratione temporibus placeat dignissimos ab accusamus veniam. Maxime.</p>
-            <Link to=""><button>Apply Now</button></Link>
+            <h1>Rejoignez Nous</h1>
+            <p>Vous êtes passionnés par les technologies et souhaitez
+              faire partie d'une équipe dynamique ? Chez Beriverse, nous
+              recherchons des talents motivés et créatifs pour rejoindre
+              notre équipe. Postulez dès maintenant pour faire partie
+              de notre aventure technologique.
+            </p>
+            <Link to="mailto:beriverse@gmail.com"><button>Postuler</button></Link>
           </div>
         </section>
 
         <section className='blog'>
           <div className="blog-items">
-            <h1>Stay up to date on our latest projects</h1>
-            <p>We regularly share updates about our company, the development of the Amini platform, and research to advance our mission to becoming the single source of truth for African environmental data.</p>
+            <h1>Restez informez de nos derniers projets</h1>
+            <p>Nous publions regulièrement les nouveaux projets et collaboration de Beriverse.</p>
             <div className="blog-item">
               <BlogCard className="back1">
-                <h5>NEWS</h5>
-                <h4>Artificial Intelligence</h4>
+                <h5>TECHNOLOGY</h5>
+                <h4>MARTONE</h4>
               </BlogCard>
               <BlogCard className="back2">
-                <h5>RESEARCH</h5>
-                <h4>Data Science</h4>
+                <h5>3D ANIMATION</h5>
+                <h4>NFT</h4>
               </BlogCard>
               <BlogCard className="back3">
-                <h5>NEWS</h5>
-                <h4>Agriculture Technology</h4>
+                <h5>MOTION DESIGN</h5>
+                <h4>EARTH</h4>
               </BlogCard>
             </div>
           </div>
