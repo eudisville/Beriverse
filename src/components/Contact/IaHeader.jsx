@@ -6,10 +6,10 @@ function Header() {
     <div className='ai'>
         <div className="about-ai">
             <div className="text">
-                <h1>Contact Us</h1>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                <h1>Contactez nous</h1>
+                <p>Des renseignements ou préoccupation ? Ecrivez-nous.</p>
                 <button>
-                  Contact Now
+                  Contacter
                 </button>
             </div>
         </div>

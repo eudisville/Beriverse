@@ -4,6 +4,10 @@
     padding: 0 40px;
 }
 
+.software-items {
+    width: 100%;
+}
+
 .left h5 {
     color: white;
 }
@@ -19,6 +23,7 @@
     background-position: center;
     color: white;
     text-align: right;
+    width: 100%;
 }
 
 .ia-items {
@@ -60,5 +65,15 @@ main {
         flex-direction: column;
         display: flex;
         align-items: center;
+    }
+
+    .ia-items .right h1 {
+        font-size: 36px;
+        width: 100%;
+        margin-top: 20px;
+    }
+
+    .ia-items .right p {
+        font-size: 24px;
     }
 }

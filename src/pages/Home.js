@@ -23,12 +23,13 @@ function Home() {
             <div className="section-text">
               <div className="left">
                 <h5>Beriverse Incorporation</h5>
-                <h1>Beriverse solving major problems of our world</h1>
+                <h1>Beriverse vous aide dans votre croissance numérique</h1>
               </div>
 
               <div className="right">
-                <p>From global problems to activities sectors problems,
-                  we resolve many problems. 
+                <p>
+                  A la l'ère des nouvelles technologies, il est important pour nous de vous aider à
+                  établir des solutions technologiques pour l'optimisation de vos processus. 
                 </p>
               </div>
             </div>

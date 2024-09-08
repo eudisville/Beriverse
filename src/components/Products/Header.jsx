@@ -1,9 +1,16 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import './Header.css'
+import Aos from 'aos';
+
 function Header() {
+
+  useEffect(() => {
+    Aos.init({ duration: 2000 })
+  }, [])
+
   return (
     <div className='software'>
-        <div className="about-software">
+        <div className="about-software" data-aos="fade-up">
             <div className="text">
                 <h1>Découvrez Nos Services</h1>
                 <p>

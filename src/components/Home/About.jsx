@@ -16,8 +16,7 @@ function About() {
                 <h1>A Propos de Nous</h1>
                 <p>Bienvenue chez Beriverse, votre partenaire technologique
                   de confiance basé en Côte d'Ivoire. Nous sommes une start-up
-                  innovante spécialisé en développement de logiciel, Animation 3D
-                  et Design.
+                  innovante spécialisé en développement de logiciel, APIs & Consulting.
                   Notre Mission, Inspirer et Transformer le Monde.
                 </p>
             </div>
