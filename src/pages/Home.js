@@ -7,6 +7,7 @@ import BlogCard from '../components/Cards/BlogCard'
 import AOS from 'aos'
 import 'aos/dist/aos.css';
 import './style.css'
+import Service from '../components/Cards/Service'
 
 function Home() {
 
@@ -45,6 +46,24 @@ function Home() {
             <div className="team-text">
               <h5>CE QUE NOUS FAISONS</h5>
               <h1>Laissez Nous vous Embarquer</h1>
+              <div className="team-card">
+                <Service>
+                  <h2>Logiciels & Applications</h2>
+                  <p>Nous concevons des logiciels sur mesure et des applications robustes pour répondre aux besoins spécifiques de votre entreprise. Que ce soit pour le web, le mobile (iOs & Android) ou le desktop, nous créons des solutions efficaces et évolutives qui améliorent vos performances.</p>
+                </Service>
+                <Service>
+                  <h2>Site Web</h2>
+                  <p>Nous développons des sites web modernes qui mettent en valeur votre activité en ligne. Qu'il s'agisse de sites vitrines, e-commerce ou blogs, nous vous offrons une expérience utilisateur optimale et un design soigné.</p>
+                </Service>
+                <Service>
+                  <h2>API</h2>
+                  <p>Nous développons des API sécurisées et performantes pour connecter vos systèmes et faciliter l'intégration de vos services. Nos solutions API RESTful ou GraphQL assurent une communication fluide entre vos différentes plateformes.</p>
+                </Service>
+                <Service>
+                  <h2>Formation</h2>
+                  <p>Nous offrons des formations personnalisées en programmation et technologies numériques. Que vous soyez débutant ou expérimenté, nous vous aidons à acquérir de nouvelles compétences et à maîtriser les outils essentiels pour votre carrière.</p>
+                </Service>
+              </div>
             </div>
           </div>
         </section>

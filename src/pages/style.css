@@ -76,6 +76,15 @@ section {
     flex-wrap: wrap;
 }
 
+.team-card {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 40px;
+    margin-top: 60px;
+}
+
 .join-us {
     background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,2)), url(/src/assets/images/Join.jpg);
     background-size: cover;
@@ -163,6 +172,15 @@ button:hover {
 
     .middle {
         width: 100%;
+    }
+
+    .teams {
+        height: auto;
+        padding: 40px 40px;
+        flex-direction: column;
+        display: flex;
+        align-items: center;
+        justify-content: center;
     }
 
     .team-text h5 {

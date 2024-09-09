@@ -9,4 +9,4 @@ function Ia() {
   )
 }
 
-export default Ia
+export default Ia;
